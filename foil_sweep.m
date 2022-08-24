@@ -1,7 +1,6 @@
 %%
 clear;close all;clc
 airfoil_name = ["sd7062", "sd7080", "sg6040", "e220", "sd7043"];
-% airfoil_name = ["s7055"];
 airfoil_name_caps = upper(airfoil_name);
 Re = 340000;
 Mach= 0.05;
