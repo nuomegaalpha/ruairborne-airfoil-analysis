@@ -5,3 +5,4 @@ __pycache__/
 *.out
 *.asv
 *.ipynb
+test_foil_plotting.m
