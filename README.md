@@ -65,3 +65,4 @@ Run by typing in the command line:
 - [ ] Add method for spline interpolation (hopefully for better accuracy)
 - [ ] Make scripts easier to run
 - [ ] Reynolds number sweep
+- [ ] add Reynolds automatic calculation from stall velocity and chord length
