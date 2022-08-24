@@ -16,10 +16,6 @@ for i = 1:length(airfoil_name)
     airfoil(i).name = airfoil_name(i);
     airfoil(i).filename = filename;
     airfoil(i).foil = importdata(filename);
-end
-
-%% Interpolation, run XFoil
-for i = 1:length(airfoil)
     [polar(i),foil(i)] = xfoil(airfoil(i).foil, alpha, Re, Mach, xfoil_args);
 end
 %% Plot the results
